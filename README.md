@@ -6,6 +6,12 @@
 
 ---
 
+
+<td>
+  <img src="https://avatars.githubusercontent.com/u/201062558?v=4" alt="Parmanand Jha Profile Picture" width="200" style="border-radius: 50%;">
+</td>
+
+
 ### 👨‍💻 My Journey
 
 My journey into web development began in **2012**, and since then, I’ve continuously honed my skills by building robust, SEO-optimized websites and eCommerce stores. I officially began my professional career in **2017**, and over the years, I’ve built a strong portfolio of work with clients across industries.
