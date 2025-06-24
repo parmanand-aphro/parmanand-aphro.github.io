@@ -34,99 +34,146 @@
     }
   </style>
 
-
-
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Maurya Hosting",
-  "url": "https://mauryahosting.com",
-  "logo": "https://mauryahosting.com/images/logo.png",
-  "founder": {
-    "@type": "Person",
-    "name": "Parmanand Jha",
-    "url": "https://parmanand-aphro.github.io"
-  },
-  "description": "Maurya Hosting is an Indian web hosting company offering reliable domain registration, WordPress hosting, SEO services, and digital marketing solutions since 2012.",
-  "foundingDate": "2012",
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "New Delhi",
-    "addressRegion": "Delhi",
-    "addressCountry": "IN"
-  },
-  "sameAs": [
-    "https://facebook.com/parmanand.jha",
-    "https://www.linkedin.com/in/parmanandjha",
-    "https://github.com/parmanand-aphro"
-  ]
-}
-</script>
-
-
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Parmanand Jha",
-  "jobTitle": "Founder & Frontend Developer",
-  "description": "Parmanand Jha is the founder of Maurya Hosting, an Indian web hosting company, and a Frontend Developer with over 7 years of experience specializing in WordPress, Shopify, UI/UX design, and SEO.",
-  "url": "https://parmanand-aphro.github.io",
-  "image": "https://avatars.githubusercontent.com/u/201062558?v=4",
-  "email": "mailto:parmanand.jha@hotmail.com",
-  "birthDate": "1991-07-02",
-  "birthPlace": {
-    "@type": "Place",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Patna",
-      "addressRegion": "Bihar",
-      "addressCountry": "IN"
-    }
-  },
-  "award": "Top WordPress Developer – Maurya Hosting, 2012",
-  "worksFor": [
+  "@graph": [
     {
-      "@type": "Organization",
-      "name": "Maurya Hosting",
-      "url": "https://mauryahosting.com"
+      "@type": "Person",
+      "@id": "https://mauryahosting.com/about-us.html#person",
+      "name": "Parmanand Jha",
+      "jobTitle": "Founder & Frontend Developer",
+      "description": "Parmanand Jha is the founder of Maurya Hosting, an Indian web hosting company, and a Frontend Developer with over 7 years of experience specializing in WordPress, Shopify, UI/UX design, and SEO.",
+      "url": "https://mauryahosting.com/about-us.html",
+      "image": "https://avatars.githubusercontent.com/u/201062558?v=4",
+      "email": "mailto:parmanand.jha@hotmail.com",
+      "birthDate": "1991-07-02",
+      "birthPlace": {
+        "@type": "Place",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Patna",
+          "addressRegion": "Bihar",
+          "addressCountry": "IN"
+        }
+      },
+      "award": "Top WordPress Developer – Maurya Hosting, 2012",
+      "worksFor": [
+        {
+          "@id": "https://mauryahosting.com/#organization"
+        },
+        {
+          "@type": "Organization",
+          "name": "Aphro Ecommerce Solution Private Limited",
+          "url": "https://www.aphroecs.com"
+        }
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Sikkim Manipal University",
+        "url": "https://smu.edu.in"
+      },
+      "sameAs": [
+        "https://facebook.com/parmanand.jha",
+        "https://www.linkedin.com/in/parmanandjha",
+        "https://www.instagram.com/jha_b2/",
+        "https://x.com/jha_b2",
+        "https://profiles.wordpress.org/jhaparmanand/",
+        "https://github.com/parmanand-aphro",
+        "https://parmanand-aphro.github.io"
+      ],
+      "knowsAbout": [
+        "Frontend Development",
+        "Web Hosting",
+        "Web Development",
+        "WordPress",
+        "Shopify",
+        "UI/UX Design",
+        "Search Engine Optimization",
+        "Digital Marketing"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Patna",
+        "addressCountry": "IN"
+      }
     },
     {
       "@type": "Organization",
-      "name": "Aphro Ecommerce Solution Private Limited",
-      "url": "https://www.aphroecs.com"
+      "@id": "https://mauryahosting.com/#organization",
+      "name": "Maurya Hosting",
+      "url": "https://mauryahosting.com",
+      "logo": "https://mauryahosting.com/assets/images/logo/favicon-icon.png",
+      "description": "Maurya Hosting, a brand under M H Technology, has been a trusted provider of web and cloud solutions since 2010. Based in Patna, Bihar, we specialize in website design, mobile app development, cloud hosting, SEO, and digital marketing.",
+      "founder": {
+        "@id": "https://mauryahosting.com/about-us.html#person"
+      },
+      "foundingDate": "2010",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Chanakya Colony, Parsa Bazaar Station",
+        "addressLocality": "Patna",
+        "addressRegion": "Bihar",
+        "postalCode": "804453",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+918092927773",
+        "contactType": "Customer Service",
+        "email": "sales@mauryahosting.com",
+        "availableLanguage": ["English", "Hindi"]
+      },
+      "sameAs": [
+        "https://x.com/MauryaHosting",
+        "https://www.facebook.com/HostingMaurya",
+        "https://www.instagram.com/mauryahosting/",
+        "https://www.linkedin.com/company/mauryahosting/"
+      ]
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://mauryahosting.com/#local",
+      "name": "Maurya Hosting",
+      "url": "https://mauryahosting.com",
+      "description": "Maurya Hosting offers reliable web hosting, domain registration, and digital solutions in Patna, Bihar. Contact us for tailored web services.",
+      "image": "https://mauryahosting.com/assets/images/logo/favicon-icon.png",
+      "telephone": "+918092927773",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Chanakya Colony, Parsa Bazaar Station",
+        "addressLocality": "Patna",
+        "addressRegion": "Bihar",
+        "postalCode": "804453",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.5941, // Approximate latitude for Patna
+        "longitude": 85.1376  // Approximate longitude for Patna
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday"
+          ],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      ],
+      "sameAs": [
+        "https://x.com/MauryaHosting",
+        "https://www.facebook.com/HostingMaurya",
+        "https://www.instagram.com/mauryahosting/",
+        "https://www.linkedin.com/company/mauryahosting/"
+      ]
     }
-  ],
-  "alumniOf": {
-    "@type": "EducationalOrganization",
-    "name": "Sikkim Manipal University",
-    "url": "https://smu.edu.in"
-  },
-  "sameAs": [
-    "https://facebook.com/parmanand.jha",
-    "https://www.linkedin.com/in/parmanandjha",
-    "https://www.instagram.com/jha_b2/",
-    "https://x.com/jha_b2",
-    "https://profiles.wordpress.org/jhaparmanand/",
-    "https://github.com/parmanand-aphro"
-  ],
-  "knowsAbout": [
-    "Frontend Development",
-    "Web Hosting",
-    "Web Development",
-    "WordPress",
-    "Shopify",
-    "UI/UX Design",
-    "Search Engine Optimization",
-    "Digital Marketing"
-  ],
-  "address": {
-    "@type": "PostalAddress",
-    "addressLocality": "New Delhi",
-    "addressCountry": "IN"
-  }
+  ]
 }
 </script>
 
